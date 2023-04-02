@@ -1,0 +1,85 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#todoInput {
+  padding: 10px;
+  width: 50%;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#addTodoBtn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#addTodoBtn:hover {
+  background-color: #3e8e41;
+}
+
+#todoList {
+  margin-top: 30px;
+  background-color: #4caf50;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  width: 700px;
+  height: 100%;
+
+  color: #ffffff;
+}
+
+.todo-item {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.todo-item:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 85%;
+  cursor: pointer;
+}
+
+/* .deleteAllBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
